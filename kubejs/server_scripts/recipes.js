@@ -12,11 +12,11 @@ ServerEvents.recipes(event => {
           B: 'minecraft:compass'
         }
       )
-      .keepIngredient({item: 'minecraft:compass'})
-      event.remove({ id: 'gtceu:assembler/map' })
-      event.recipes.gtceu.assembler('gtceu:assembler/map')
+    .keepIngredient({item: 'minecraft:compass'})
+    event.remove({ id: 'gtceu:assembler/map' })
+    event.recipes.gtceu.assembler('gtceu:assembler/map')
         .itemInputs(
-            '4x minecraft:paper'
+          '4x minecraft:paper'
         )
         .itemOutputs(
             'minecraft:map'
